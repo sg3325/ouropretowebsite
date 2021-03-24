@@ -17,6 +17,12 @@ h2 {
 	margin-bottom: 80px;
 }
 
+h3 {
+	text-align: left;
+	color: #D79C25;
+	font-weight: bold;
+}
+
 .logo {
 	width: 600px; 
 	height: 130px; 
@@ -67,7 +73,7 @@ nav li a:link {
 }
 
 nav li a:visited {
-	color: #d79c25;	
+	color: #fff;	
 }
 
 nav li a:hover {
