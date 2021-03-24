@@ -1,0 +1,433 @@
+/* Header */
+
+header {
+	width: 100%; 
+	height: 15%;
+	background-color: #766b4e;
+	position: fixed; 
+	top: 0;
+	z-index: 1000;
+	padding: 15px 0 8px 0; 
+
+}
+
+h2 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.hero-image {
+	width: 100%;
+	margin-top: 15px;
+	float: left;
+
+}
+.call-to-action{
+	text-align: left;
+	font-size: 1.5em;
+	color: #9B4016;
+	z-index: 1000;
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 100px;
+}
+nav{
+	float: right; 
+	
+}
+
+nav ul {
+	list-style-type: none; 
+	text-align: right; 
+}
+
+nav li{
+	display: inline-block; 
+	font-size: .8em;
+	font-weight: 600; 
+	text-transform: uppercase; 
+	letter-spacing: .1em; 
+	padding-left: 20px;
+	cursor: pointer; 
+}
+
+nav li a:link {
+	color: #fff;	
+	text-decoration: none; 
+}
+
+nav li a:visited {
+	color: #d79c25;	
+}
+
+nav li a:hover {
+	color: #ffffff;	
+}
+
+
+nav li a:active {
+	color: #ff6600;	
+}
+
+p{
+	margin-bottom: 70px;
+	margin-top: 13px;
+
+}
+
+.section-head {
+	text-align: center; 
+	font-size: 24pt;
+	padding-top:15px;
+	
+}
+
+.section-head2{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 26pt;
+	color: #D79C25;
+	position: absolute;
+	
+}
+.section-head3{
+	font-family: 'Noto Serif JP', serif;
+	font-size: 16pt;
+	color: #D79C25;
+	float: left;
+	margin-top: 13px;
+	margin-left: 0;
+	padding-top: 0;
+}
+
+.section-copy{
+	margin-bottom: 10px;
+	text-align: center; 
+	font-size: 1.2em;
+	color: #9B4016;
+	
+
+
+}
+
+/* history */
+
+.history {
+	width: 100%;
+	padding: 30px 0 100px 0;
+	float: left;
+	background-color: #d79c25;
+	background: rgba(215,156,37,.53);
+
+}
+
+/*Culture */
+
+.culture {
+	width: 100%;
+	padding: 30px 0 100px 0;
+	background-color: #efefef;
+	background-image: url("../images/backgroundimage.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+/*a glimpse of ouro preto */
+
+.gallery {
+	width: 100%;
+	padding: 30px 0 100px 0;
+	float: left;
+	background-color: #7db1e5;
+	background: rgba(125,177,229,.53);
+	
+}
+	
+
+
+/*traveler reviews*/
+
+.traveler {
+	padding: 30px 0 100px 0;
+	width: 100%;
+	float: left;
+	background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(239,171,35,0.5298494397759104) 100%);
+	
+}
+
+.traveler img{
+	margin-left: 30px;
+	width: 150px;
+	height: 140px;
+	margin-bottom: 50px;
+	border-radius: 100%;
+	float: center;
+	
+
+}
+
+.Banner {
+	width: 100%;
+	float: left;
+	padding: 0;
+	
+}
+
+/* Where we're located */
+
+.location {
+	padding: 100px 0 100px 0;
+	width: 100%;
+	text-align: left;
+	float: left;
+	background-color: #7db1e5;
+	background: rgba(125,177,229,.53);
+	
+}
+
+/*support */ 
+/*Memberships*/ 
+.memberships {
+margin-top: 0;
+	width: 100%;
+	background-color: #eeeeee;
+	font-size: 1em;
+}
+
+.membership-free,
+.membership-monthly,
+.membership-yearly {
+	font-size: 2em;
+	color: #000;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.membership-free {
+	background-color: rgba(215, 156, 37, .90);
+}
+
+.membership-monthly {
+	background-color: rgba(215, 156, 37, .90);
+}
+
+.membership-yearly {
+	background-color: rgba(215, 156, 37, .90);
+}
+
+.membership-cost {
+	font-size: 1.2em;
+	color: #000000;
+	font-weight: 900;
+	text-align: center;
+	padding: 10px 0;
+	background-color: rgba(225, 225, 225, .90);
+}
+
+.membership-features {
+	height: 292px;
+	text-align: center;
+	padding: 30px 0 20px 0;
+	background-color: rgba(215, 156, 37, .90);
+}
+
+.membership-features ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.membership-features li {
+	list-style: none outside none;
+	padding: 0 20px 10px 20px;
+	font-weight: 500;
+}
+
+.membership-btn {
+	margin: 30px auto;
+}
+
+.membership-btn a:link {
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 10px 30px;
+	font-size: .9em;
+	font-weight: 650;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.memberships {
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color: #efefef;
+	background-image: url("../images/ouropretomuseum2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+/*end section*/
+
+
+/* contact us */
+.contact{
+	padding: 30px 0 100px 0;
+	margin-top: -100px;
+	background-image: url("../images/yellowflowers.jpg");
+	background-size: contain;
+	overflow: hidden;
+	width: 100%;
+
+	
+}
+
+
+
+
+
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form select {
+	width: 460px;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid #dadada;
+	background: rgb(125,177,229, .40);
+	font-weight: 100;	
+}
+
+.contact-form textarea {
+	height: 200px;
+	background: rgb(125,177,229, .40);
+	
+}
+
+.contact-btn {
+	margin: 30px auto;
+}
+
+.contact-btn a:link {
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 10px 30px;
+	font-size: .9em;
+	font-weight: 650;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+ 
+
+.city {
+	text-transform: uppercase;
+	font-weight: 900;
+	
+}
+
+/*footer*/
+
+div.box {
+	text-align: center;
+	width: 100%;
+	height: 200px;
+	padding: 90px 0 80px 0;
+}
+
+
+footer{
+	
+width: 100%;
+	margin-bottom: 0;
+	padding: 70px 0 70px 0;
+	text-align: center;
+	background-color:#766B4E;
+	background-size: contain;
+	display: block;
+	
+	
+
+}
+footer img{
+	width: 15%;
+	float: center;
+	margin-left: 400px;
+}
+
+
+footer a:visited {
+	color: rgba(215, 156, 37, .62);
+	text-decoration:none;
+}
+
+footer a:hover{
+	color:rgba(215, 156, 37, .62);
+	text-decoration:none;
+	
+}
+
+footer a:active{
+	color: #F3F4EF;
+	text-decoration:none;
+	
+}
+
+.copyright{
+	width: 100%;
+	color: #000000;
+	
+}
+
+
+
+
+.copyright p{
+	margin-bottom:0;
+	color: #F3F4EF;
+	float: center;
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-square{
+	font-size: 2em;
+	margin: 20px 5px 0px 5px;
+	color: #F3F4EF;
+	float: center;
+	position: static;
+
+}
+
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-facebook-square:hover{
+	color:rgba(215, 156, 37, .62);
+}
+
+
+
+/*desktop and laptops */
+
+@media only screen and (min-width:1224px){
+	video{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
