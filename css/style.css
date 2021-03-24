@@ -17,6 +17,15 @@ h2 {
 	margin-bottom: 80px;
 }
 
+.logo {
+	width: 600px; 
+	height: 100px; 
+	float: left; 
+	margin-top: 5px; 
+	background: url("../../webdesign-1-gh-pages/images/ouro-preto.svg") no-repeat; 
+	
+}
+
 .hero-image {
 	width: 100%;
 	margin-top: 15px;
